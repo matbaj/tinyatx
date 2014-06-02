@@ -112,7 +112,7 @@ int main(void)
   sei();
 
   OCR0B = sine[45];
-  _delay_ms(1000);
+  _delay_ms(200);
   OCR0B = sine[0];
 
   while(1){
