@@ -18,11 +18,10 @@ ISR(WDT_vect)
   { 
     if(++timer>60)
     {
-      OCR0B = 0;
-      g = 0;
-      turned_on = 0;
       timer = 0;
       PORTB &= (~(1)<<PB0); 
+       _delay_ms(500);
+      PORTB |= (1<<PB0);
     } 
   }
   sei();
