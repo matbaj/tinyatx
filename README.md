@@ -1,4 +1,4 @@
-Blink example for Attiny85
+TinyAtx for Attiny85
 ==========================
 
 Requirements:
@@ -15,7 +15,7 @@ How to use it
 -------------
 
 ```
-git clone git@github.com:matbaj/blink.git
+git clone git@github.com:matbaj/tinyatx.git
 cd clone/
 make flash
 ```
